@@ -1,0 +1,112 @@
+body {
+    background: url(./img/unnamed.jpg);
+}
+.head {
+   color: orange;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.sidebar-1 {
+    background-color: rgb(177, 177, 177);
+    height: 600px;
+    width: 15%;
+    float: left; ;
+}
+.content-1 {
+    background-color: slategray;
+    height: 600px;
+    margin-bottom: 10px;
+    width: 68%;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content-2 {
+    background-color: slategray;
+    height: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+
+}
+.sidebar-2 {
+    background-color: rgb(177, 177, 177) ;
+    height: 600px;
+    width: 15%;
+    float: left; 
+
+}
+.imgright {
+    width: 250px;
+    margin: 7px 0px 7px 7px;
+    float: right;
+   
+}
+.footer {
+    background-color: grey;
+    height: 100px;
+    
+}
+.imgleft {
+    width: 300px;
+    margin: 7px 7px 7px 0;
+    float: left;
+    padding-top: 20px;
+}
+.u:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.leftimg {
+    width: 300px;
+    margin: 7px 7px 7px 0;
+    float: left;
+}
+.rightimg {
+    width: 400px;
+    margin: 7px 0px 7px 7px ; 
+    float: right;
+}
+.sun {
+
+}
+.img-1 {
+    width: 100px;
+    float: left;
+}
+.img-2 {
+    width: 100px;
+    float: right;
+}
+ul {
+    font-weight: bolder;
+}
+ol {
+    font-weight: normal
+}
+li {
+    font-weight:normal
+}
+h4 {
+    margin: 5px;
+}
+h1 {
+    padding-top: 30px ;
+}
+h3 {
+    color: maroon;
+}
+.gif {
+    width: 120px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+} 
