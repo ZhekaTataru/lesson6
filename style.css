@@ -48,7 +48,10 @@ body {
 }
 .footer {
     background-color: grey;
+    position: absolute;
+    width: 100%;
     height: 100px;
+    top: 1050px;
     
 }
 .imgleft {
@@ -57,13 +60,6 @@ body {
     float: left;
     padding-top: 20px;
 }
-.u:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
 .leftimg {
     width: 300px;
     margin: 7px 7px 7px 0;
@@ -110,3 +106,224 @@ h3 {
    margin-right: auto;
 
 } 
+@media screen and (max-width: 1024px) {
+    .head {
+        color: orange;
+         height: 60px;
+         margin-bottom: 7px;
+     }
+     .img-1 {
+        width: 60px;
+        float: left;
+    }
+    .img-2 {
+        width: 60px;
+        float: right;
+    }
+    h1 {
+        padding-top: 0px ;
+    }
+    .sidebar-1 {
+        background-color: rgb(177, 177, 177);
+        height: 420px;
+        width: 15%;
+        float: left; ;
+    }
+    .content-1 {
+        background-color: slategray;
+        height: 420px;
+        margin-bottom: 10px;
+        width: 67%;
+        float: left;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .text {
+        font-size: 11px;
+    }
+    .text2 {
+        font-size: 11px;
+    }
+    h3 {
+        color: maroon;
+        font-size: 14px;
+    }
+    .text3 {
+        font-size: 11px;
+    }
+    .sidebar-2 {
+        background-color: rgb(177, 177, 177) ;
+        height: 420px;
+        width: 15%;
+        float: left; 
+    
+    }
+    .content-2 {
+        background-color: slategray;
+        height: 200px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        float: left;
+    }
+    .imgright {
+        width: 150px;
+        margin: 5px 0px 5px 5px;
+        float: right;
+       
+    }
+    
+    .imgleft {
+        width: 150px;
+        margin: 5px 5px 5px 0;
+        float: left;
+        padding-top: 20px;
+    }
+    .leftimg {
+        width: 150px;
+        margin: 5px 5px 5px 0;
+        float: left;
+    }
+    .rightimg {
+        width: 150px;
+        margin: 5px 0px 5px 5px ; 
+        float: right;
+    }
+    ul {
+        font-size: 11px;
+    }
+    
+    .gif {
+        width: 60px;
+       display: block;
+       margin: auto;
+    }
+    h1 {
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    .footer {
+        background-color: grey;
+        position: absolute;
+        width: 100%;
+        height: 80px;
+        top: 712px;
+    }
+
+
+}
+@media screen and (max-width: 800px) {
+    .head {
+        color: orange;
+         height: 40px;
+         margin-bottom: 7px;
+     }
+     .img-1 {
+        width: 40px;
+        float: left;
+    }
+    .img-2 {
+        width: 40px;
+        float: right;
+    }
+    h1 {
+        padding-top: 0px ;
+    }
+    .sidebar-1 {
+        background-color: rgb(177, 177, 177);
+        height: 340px;
+        width: 14%;
+        float: left; ;
+    }
+    .content-1 {
+        background-color: slategray;
+        height: 340px;
+        margin-bottom: 5px;
+        width: 67%;
+        float: left;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .text {
+        font-size: 9px;
+    }
+    .text2 {
+        font-size: 9px;
+    }
+    h3 {
+        color: maroon;
+        font-size: 12px;
+    }
+    .text3 {
+        font-size: 9px;
+    }
+    .sidebar-2 {
+        background-color: rgb(177, 177, 177) ;
+        height: 340px;
+        width: 14%;
+        float: left; 
+    
+    }
+    .content-2 {
+        background-color: slategray;
+        height: 160px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        float: left;
+    }
+    .imgright {
+        width: 100px;
+        margin: 2px 0px 2px 2px;
+        float: right;
+       
+    }
+    
+    .imgleft {
+        width: 100px;
+        margin: 2px 2px 2px 0;
+        float: left;
+        padding-top: 20px;
+    }
+    .leftimg {
+        width: 100px;
+        margin: 5px 5px 5px 0;
+        float: left;
+    }
+    .rightimg {
+        width: 100px;
+        margin: 5px 0px 5px 5px ; 
+        float: right;
+    }
+    ul {
+        font-size: 8px;
+    }
+    
+    .gif {
+        width: 60px;
+       display: block;
+       margin: auto;
+    }
+    h1 {
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    .footer {
+        background-color: grey;
+        position: absolute;
+        width: 100%;
+        height: 50px;
+        top: 568px;
+    }
+    h4 {
+        font-size: 8px;
+    }
+
+
+}
